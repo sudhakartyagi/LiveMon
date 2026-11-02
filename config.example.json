@@ -1,0 +1,14 @@
+{
+  "token": "paste-your-jwt-token-here",
+  "class_id": "00000000-0000-0000-0000-000000000000",
+  "lesson_id": "00000000-0000-0000-0000-000000000000",
+  "api_url": "http://localhost:8000",
+  "listener": {
+    "input_device": null,
+    "model_size": "small",
+    "language": null,
+    "beam_size": 5,
+    "min_words": 3,
+    "hotwords": null
+  }
+}

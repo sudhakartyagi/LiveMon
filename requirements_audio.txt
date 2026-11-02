@@ -1,0 +1,10 @@
+# mic_listener.py — pro continuous listener dependencies (Windows/macOS/Linux)
+# Install:  pip install -r requirements_audio.txt
+#
+# First run downloads the Whisper 'small' model once (~475 MB), then the
+# listener is fully offline — no Google API, no per-request cost.
+
+faster-whisper>=1.0.0
+sounddevice>=0.4.6
+numpy>=1.24
+httpx>=0.27
