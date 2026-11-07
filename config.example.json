@@ -5,10 +5,35 @@
   "api_url": "http://localhost:8000",
   "listener": {
     "input_device": null,
-    "model_size": "small",
-    "language": null,
-    "beam_size": 5,
+
+    "preset": "auto",
+
+    "model_size": "small-hi",
+    "language": "auto",
+    "beam_size": 1,
+    "cpu_threads": 0,
+    "block_ms": 200,
     "min_words": 3,
-    "hotwords": null
+    "hotwords": null,
+    "without_timestamps": true,
+    "vad_filter": true,
+    "probe_every": 3,
+    "merge_max_s": 25,
+    "overlap_trim": 4,
+    "cap_gap_frames": 3,
+    "carry_prompt_words": 8,
+    "initial_prompt": null,
+    "math_initial_prompt": false,
+    "hindi_classroom_prompt": false,
+    "stitch_tail_words": 6,
+    "stitch_window_s": 12,
+    "hi_model": null,
+    "en_model": null,
+    "script_sanity": true,
+    "adaptive_max_utt": true,
+    "soft_retry": true,
+    "experience": true,
+    "experience_db": "experience.db",
+    "feedback_url": null
   }
 }
